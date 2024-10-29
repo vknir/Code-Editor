@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: var(--fs-normal);
+    position: relative;
+    padding-block: 10px;
+}
+
+
+
+
+h1>span{
+    
+    font-weight: var(--fw-bold);
+}
+
+.repeat-img{
+    position: absolute;
+    left:80%;
+
+    padding-block: 7px  ;
+    padding-inline: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 3px #dddddd;
+}
+
+.repeat-img:hover{
+    cursor: pointer;
+}
+

@@ -1,0 +1,21 @@
+.upper-section {
+  background-color: #45474d;
+  width: 100%;
+
+  display: flex;
+
+  gap: 0.5rem;
+}
+
+.lower-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lower-section > iframe {
+  width: 100%;
+  height: 350px;
+
+  padding: 10px;
+}
