@@ -130,7 +130,7 @@ function Editor({ language }) {
 
         <FontAwesomeIcon
           onClick={() => invertExpand(editorConfig.expanded)}
-          icon={editorConfig.expanded ? faExpandAlt : faCompressAlt}
+          icon={editorConfig.expanded ?  faCompressAlt : faExpandAlt }
         />
       </div>
 
