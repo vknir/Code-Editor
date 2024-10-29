@@ -22,6 +22,10 @@
   font-size: var(--fs-normal);
 }
 
+.heading-icon{
+  color: white;
+}
+
 .minimized{
   width: 200px;
 }
